@@ -3,7 +3,7 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `l-isola-di-circe`,
+    title: `L'Isola di Circe`,
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
