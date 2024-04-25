@@ -1,3 +1,23 @@
+# Dependency directories
 node_modules/
+
+# Gatsby build output
+public/
 .cache/
-public
+
+# Environment variables
+.env*
+
+# Logs
+*.log
+
+# Editors and IDEs
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*~
+#*
