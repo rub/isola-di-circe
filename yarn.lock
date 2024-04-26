@@ -1619,6 +1619,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@csstools/selector-resolve-nested@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@csstools/selector-resolve-nested@npm:1.1.0"
+  peerDependencies:
+    postcss-selector-parser: ^6.0.13
+  checksum: 10c0/3a53b14e048d48b8900c1cf30442ab5eec1a1087c74ce41459c4dcd42ad7d363c9327890ba7aed25288d09c206d9565178bae126b25cdc3e1170a1d55e763c77
+  languageName: node
+  linkType: hard
+
+"@csstools/selector-specificity@npm:^3.0.3":
+  version: 3.0.3
+  resolution: "@csstools/selector-specificity@npm:3.0.3"
+  peerDependencies:
+    postcss-selector-parser: ^6.0.13
+  checksum: 10c0/e4f0355165882ddde8bd4a2f0252868150e67b9fae927fd2d94a91cee31e438e7041059f20b9c755a93b0bd8e527a9f78b01168fe67b3539be32091240aa63bf
+  languageName: node
+  linkType: hard
+
 "@eslint-community/eslint-utils@npm:^4.2.0":
   version: 4.4.0
   resolution: "@eslint-community/eslint-utils@npm:4.4.0"
@@ -9241,6 +9259,7 @@ __metadata:
     gatsby-source-filesystem: "npm:^5.13.1"
     gatsby-transformer-sharp: "npm:^5.13.1"
     postcss: "npm:^8.4.38"
+    postcss-nesting: "npm:^12.1.2"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
   languageName: unknown
@@ -11133,6 +11152,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"postcss-nesting@npm:^12.1.2":
+  version: 12.1.2
+  resolution: "postcss-nesting@npm:12.1.2"
+  dependencies:
+    "@csstools/selector-resolve-nested": "npm:^1.1.0"
+    "@csstools/selector-specificity": "npm:^3.0.3"
+    postcss-selector-parser: "npm:^6.0.13"
+  peerDependencies:
+    postcss: ^8.4
+  checksum: 10c0/39d1d100f61863f904393b17169be83cdf82bd50d530efb3e3ae0c7b0f838b254e10e5d12e25119cf31dce9e351a2b770a03f9b2029ff33bef0ec924c0d2f642
+  languageName: node
+  linkType: hard
+
 "postcss-normalize-charset@npm:^5.1.0":
   version: 5.1.0
   resolution: "postcss-normalize-charset@npm:5.1.0"
@@ -11267,7 +11299,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss-selector-parser@npm:^6.0.2, postcss-selector-parser@npm:^6.0.4, postcss-selector-parser@npm:^6.0.5, postcss-selector-parser@npm:^6.0.9":
+"postcss-selector-parser@npm:^6.0.13, postcss-selector-parser@npm:^6.0.2, postcss-selector-parser@npm:^6.0.4, postcss-selector-parser@npm:^6.0.5, postcss-selector-parser@npm:^6.0.9":
   version: 6.0.16
   resolution: "postcss-selector-parser@npm:6.0.16"
   dependencies:

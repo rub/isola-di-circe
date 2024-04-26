@@ -7,7 +7,16 @@ module.exports = {
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [
-    "gatsby-plugin-postcss",
+    {
+      resolve: "gatsby-plugin-postcss",
+      options: {
+        postCssPlugins: [
+          require("postcss-nesting")({
+            edition: "2024-02", // Use the latest version of CSS nesting
+          }),
+        ],
+      },
+    },
     // "gatsby-plugin-google-gtag",
     "gatsby-plugin-image",
     "gatsby-plugin-sharp",
